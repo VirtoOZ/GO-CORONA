@@ -1,0 +1,37 @@
+//======================================================================
+.footer {
+	margin: 0px 0px 20px 0px;
+	@media (min-width: ($md3+px)) {
+		margin: 0px 0px 50px 0px;
+	}
+	// .footer__container
+	// &__container {
+	// }
+	// .footer__body
+	// &__body {
+	// }
+	// .footer__item
+	&__items {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	// .footer__link
+	&__link {
+		flex: 0 1 150px;
+		margin: 0px 50px 0px 0px;
+		@media (min-width: ($md3+px)) {
+			flex: 0 1 15%;
+		}
+		@media (min-width: ($md1+px)) {
+			flex: 0 1 150px;
+		}
+		&:last-child {
+			margin: 0px 0px 0px 0px;
+		}
+		img {
+			max-width: 100%;
+		}
+	}
+}
+//======================================================================
